@@ -1,0 +1,7 @@
+// Class One with a parameterized constructor
+class One {
+    // Parameterized constructor that takes an integer parameter
+    One(int x) {
+        System.out.println("Class One: x = " + x);
+    }
+}

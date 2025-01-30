@@ -1,0 +1,8 @@
+// Class Two that extends class One
+class Two extends One {
+    // Class Two does not have its own constructor
+    // It will not compile because class One has no default constructor
+
+    // Uncomment this line to see the compilation error:
+    // Two() { }
+}

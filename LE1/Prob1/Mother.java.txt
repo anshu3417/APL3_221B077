@@ -1,0 +1,5 @@
+// Child class that extends the Mother class
+class Child extends Mother {
+    // The show() method is inherited from Mother, so it doesn't need to be redefined here.
+    // If desired, you can override it with a new implementation.
+}
