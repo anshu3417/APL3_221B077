@@ -1,0 +1,13 @@
+package com.jiet;
+
+import com.juet.Pack1;
+
+public class Pack2 extends Pack1 {
+    public static void main(String[] args) {
+        // Creating an object of Pack2, which is a subclass of Pack1
+        Pack2 pack2 = new Pack2();
+        
+        // Calling the protected display method from the subclass
+        pack2.display();  // This works fine as display() is protected and Pack2 is a subclass of Pack1
+    }
+}

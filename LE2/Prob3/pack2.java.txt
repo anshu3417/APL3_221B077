@@ -1,0 +1,13 @@
+package com.jiet;
+
+import com.juet.Pack1;  // Importing Pack1 from package com.juet
+
+public class Pack2 {
+    public static void main(String[] args) {
+        // Trying to create an object of Pack1
+        Pack1 pack1 = new Pack1();  // Error here: Protected method cannot be accessed outside its package directly
+
+        // Trying to call the protected method of Pack1
+        pack1.display();  // This will result in a compile-time error.
+    }
+}

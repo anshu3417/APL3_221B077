@@ -1,0 +1,13 @@
+package com.jiet;
+
+import com.juet.Pack1;
+
+public class Pack2 {
+    public static void main(String[] args) {
+        // Creating an object of Pack1
+        Pack1 pack1 = new Pack1();
+        
+        // Calling the public display method of Pack1
+        pack1.display();  // This works fine now as display() is public
+    }
+}
