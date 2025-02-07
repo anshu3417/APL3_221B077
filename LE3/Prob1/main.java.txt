@@ -1,0 +1,16 @@
+// Main class to execute the program
+public class Main {
+    public static void main(String[] args) {
+        // Creating instances of each character
+        Arjun arjun = new Arjun("Arjun");
+        Bheem bheem = new Bheem("Bheem");
+        Duryodhan duryodhan = new Duryodhan("Duryodhan");
+        Vikarn vikarn = new Vikarn("Vikarn");
+
+        // Testing the behavior of each character
+        arjun.fight();  // Arjun is a great fighter.
+        bheem.obey();   // Bheem is obedient.
+        duryodhan.cruel();  // Duryodhan is cruel.
+        vikarn.cruel();  // Vikarn is kind and not cruel.
+    }
+}

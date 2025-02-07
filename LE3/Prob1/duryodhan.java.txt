@@ -1,0 +1,26 @@
+// Concrete class Duryodhan extends Kaurav
+public class Duryodhan extends Kaurav {
+
+    // Constructor
+    Duryodhan(String name) {
+        super(name);
+    }
+
+    // Implementing the fight method
+    @Override
+    public void fight() {
+        System.out.println(name + " is a great fighter.");
+    }
+
+    // Implementing disobey method
+    @Override
+    public void disobey() {
+        System.out.println(name + " disobeys rules.");
+    }
+
+    // Implementing cruel method
+    @Override
+    public void cruel() {
+        System.out.println(name + " is cruel.");
+    }
+}

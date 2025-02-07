@@ -1,0 +1,12 @@
+// Abstract base class Bharatvanshi
+public abstract class Bharatvanshi {
+    String name;
+
+    // Constructor
+    Bharatvanshi(String name) {
+        this.name = name;
+    }
+
+    // Abstract method for fighting
+    public abstract void fight();
+}

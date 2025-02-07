@@ -1,0 +1,12 @@
+// Abstract class Pandav extends Bharatvanshi
+public abstract class Pandav extends Bharatvanshi {
+
+    // Constructor
+    Pandav(String name) {
+        super(name);
+    }
+
+    // Abstract methods specific to Pandav
+    public abstract void obey();
+    public abstract void kind();
+}

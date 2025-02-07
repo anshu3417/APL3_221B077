@@ -1,0 +1,12 @@
+// Abstract class Kaurav extends Bharatvanshi
+public abstract class Kaurav extends Bharatvanshi {
+
+    // Constructor
+    Kaurav(String name) {
+        super(name);
+    }
+
+    // Abstract methods specific to Kaurav
+    public abstract void disobey();
+    public abstract void cruel();
+}

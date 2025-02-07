@@ -1,0 +1,26 @@
+// Concrete class Arjun extends Pandav
+public class Arjun extends Pandav {
+
+    // Constructor
+    Arjun(String name) {
+        super(name);
+    }
+
+    // Implementing the fight method
+    @Override
+    public void fight() {
+        System.out.println(name + " is a great fighter.");
+    }
+
+    // Implementing obey method
+    @Override
+    public void obey() {
+        System.out.println(name + " is obedient.");
+    }
+
+    // Implementing kind method
+    @Override
+    public void kind() {
+        System.out.println(name + " is kind.");
+    }
+}
